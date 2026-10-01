@@ -1,0 +1,29 @@
+# Orbital Warden Cannon - Paper 1.21.11
+# Warden Strike is intentionally a controlled damage weapon.
+# It uses normal Bukkit damage, so armor, absorption and Totems of Undying are respected.
+
+max-range: 300.0
+cooldown-seconds: 15
+
+# Warden Strike charge and visuals
+charge-ticks: 36
+charge-ring-radius: 10.0
+blast-count: 32
+blast-height: 24.0
+blast-radius: 11.0
+impact-radius: 5.5
+
+# Total raw damage is spread across 3 pulses.
+# 12 total is deliberately much lower than the old 1000 damage value.
+damage: 12.0
+knockback: 0.35
+
+# One use by default. The rod item is also displayed with 2 durability remaining.
+consume-on-use: true
+ignore-shooter: true
+
+# Warden Spawn
+warden-spawn-count: 30
+warden-spawn-radius: 7.0
+warden-spawn-height: 12.0
+spawn-ignore-shooter: false

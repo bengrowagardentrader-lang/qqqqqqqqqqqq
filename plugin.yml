@@ -1,0 +1,13 @@
+name: OrbitalWardenCannon
+version: 1.0.0
+main: com.unstablesmp.orbitalwarden.OrbitalWardenCannon
+api-version: '1.21'
+author: UnstableSMP
+commands:
+  owc:
+    description: Orbital Warden Cannon
+    usage: /owc <give|reload>
+    permission: orbitalwarden.admin
+permissions:
+  orbitalwarden.admin:
+    default: op
